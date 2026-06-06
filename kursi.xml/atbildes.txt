@@ -1,0 +1,10 @@
+1. Kāda ir XML struktūra?
+- Kas ir saknes elements? Saknes elements (root element) ir pats pirmais un galvenais elements, kas ietver visus pārējos elementus (šajā gadījumā <kursi>). XML dokumentā drīkst būt tikai viens saknes elements.
+- Kādi ir bērnu elementi? Bērnu elementi (child elements) ir elementi, kas atrodas cita elementa iekšpusē. Piemēram, <kurss> ir bērna elements elementam <kursi>, savukārt <nosaukums>, <apraksts> utt. ir bērnu elementi elementam <kurss>.
+
+2. Kāpēc tika izmantoti atribūti?
+Atribūti tiek izmantoti, lai pievienotu metadatus vai unikālu identifikāciju specifiskam elementam, kas tieši neveido pašu datu saturu (piemēram, id="1", lai unikāli identificētu katru kursu). Tas palīdz saglabāt XML struktūru tīrāku un vieglāk lasāmu.
+
+3. Kāda ir datu hierarhija?
+Datu hierarhija nosaka struktūras pakārtojumu no augšas uz leju:
+kursi (sakne) -> kurss (objekts sarakstā) -> informācija (nosaukums, apraksts, pasniedzējs, ilgums, studentu skaits, līmenis).

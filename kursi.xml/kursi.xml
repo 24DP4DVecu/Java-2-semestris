@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kursi>
+    <kurss id="1">
+        <nosaukums>Programmesanas pamati</nosaukums>
+        <apraksts>Ievads Java programmesanas valoda un algoritmos</apraksts>
+        <pasniedzejs>Vadims Malickis</pasniedzejs>
+        <ilsums>80</ilsums>
+        <studentuSkaits>25</studentuSkaits>
+        <limenis>iesaceji</limenis>
+    </kurss>
+    <kurss id="2">
+        <nosaukums>Datubazu tehnologijas</nosaukums>
+        <apraksts>SQL pamati un relaciju datubazu projektesana</apraksts>
+        <pasniedzejs>Juris Berzins</pasniedzejs>
+        <ilsums>64</ilsums>
+        <studentuSkaits>20</studentuSkaits>
+        <limenis>videjs</limenis>
+    </kurss>
+    <kurss id="3">
+        <nosaukums>Tymekla tehnologijas</nosaukums>
+        <apraksts>Sarezgitu web aplikaciju izstrade un optimizacija</apraksts>
+        <pasniedzejs>Andris Liepins</pasniedzejs>
+        <ilsums>120</ilsums>
+        <studentuSkaits>15</studentuSkaits>
+        <limenis>profesionalis</limenis>
+    </kurss>
+</kursi>
